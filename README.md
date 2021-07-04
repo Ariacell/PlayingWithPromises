@@ -1,5 +1,5 @@
-# MockApolloProviderBugRepro
-Minimal reproduction of strange apollo provider bug with MockedProvider and array return types in newData
+# Playing With Promises
+A playground for testing Promises and testability of asynchronous code in React and NodeJS frameworks with Jest.
 
 Steps to run after cloning this repo:
 
