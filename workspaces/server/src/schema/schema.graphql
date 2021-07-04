@@ -1,0 +1,15 @@
+type Query {
+  helloWorld: String!
+  getObjectWithArray: MixedObjectWithArray!
+}
+
+type MixedObjectWithArray {
+  objectId: String!
+  objectList: [SubObject]!
+}
+
+type SubObject {
+  subOjectId: String!
+  subObjectName: String!
+  subObjectDescription: String!
+}

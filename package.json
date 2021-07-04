@@ -1,0 +1,20 @@
+{
+    "private": true,
+    "name": "example-monorepo",
+    "workspaces": [
+        "workspaces/*"
+    ],
+    "scripts": {
+        "start:server": "yarn workspace server start:dev",
+        "start:web": "yarn workspace web start:dev",
+        "test": "yarn workspaces run test"
+    },
+    "resolutions": {
+        "css-what": "5.0.1",
+        "dns-packet": "5.2.2",
+        "lodash": "4.17.21",
+        "y18n": "5.0.5",
+        "url-parse": "1.5.0",
+        "object-path": "0.11.5"
+    }
+}
